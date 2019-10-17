@@ -686,10 +686,10 @@ class PPID_TEST:
 				print ("|-------------------------------------------------------------------|")
 				start_count = start_count + 1
 
-			print ("\n|---------  Going to set for revert back PPID  = %s -----------|"%(old_PPID))
-			PPID_Response_revert_back = self.PPID_SET(old_PPID)
-			if PPID_Response_revert_back != 'PASS':
-				iRet_Final ='FAIL'
+			#print ("\n|---------  Going to set for revert back PPID  = %s -----------|"%(old_PPID))
+			#PPID_Response_revert_back = self.PPID_SET(old_PPID)
+			#if PPID_Response_revert_back != 'PASS':
+				#iRet_Final ='FAIL'
 				
 			print ("\n*****************************************************************************")
 			print ("*                          PPID Test result : %s                          *"%(iRet_Final))
