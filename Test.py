@@ -1,1 +1,1 @@
-print "Smit Soni"
+print "Smit"
